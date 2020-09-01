@@ -1,0 +1,138 @@
+/* 秒杀模块 */
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 185px;
+    width: 71px;
+    height: 32px;
+    padding-top: 3px;
+    padding-left: 14px;
+    border-left:1px solid #b1191a;
+}
+/* 秒杀模块 End */
+
+/* nav模块 */
+.sk_list {
+    float: left;
+    
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    padding: 0 28px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #000000;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    display: block;
+    padding: 0 23px;
+    font-size: 14px;
+    line-height: 47px;
+
+}
+.sk_con ul li:last-child a::after {
+    font-family: "icomoon";
+    content: '\e90f';
+    margin-left: 3px;
+}
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 12px;
+    border: 1px solid transparent;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.sk_bd ul li:nth-child(n+5) {
+    margin-top: 5px;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #b1191a;
+}
+.goods_des {
+    position: relative;
+}
+.goods_des h4 {
+    width: 288px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    padding: 0 11px;
+}
+.goods_des p{
+    display: block;
+    width: 288px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 11px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #e60012;
+    margin-top: 17px;
+}
+.goods_des p span:first-child {
+    font-size: 14px;
+}
+.goods_des p span:last-child {
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+    margin-left: 8px;
+}
+.percent {
+    width: 288px;
+    height: 41px;
+    padding: 0 11px;
+    /* background-color: aqua; */
+    line-height: 41px;
+    color: #666666;
+    font-size: 14px;
+}
+.percent .bar {
+    display: inline-block;
+    width: 132px;
+    height: 12px;
+    border: 1px solid #e12228;
+    border-radius: 6px;
+    margin: 0 5px;
+}
+.percent .bar .bar_in {
+    height: 100%;
+    width: 0%;
+    border-radius: 6px;
+    background-color: #ed282e;
+    transition: width 1s;
+}
+.percent .bar:hover .bar_in {
+    
+    width: 87%;
+}
+.quick_buy {
+    /* position: absolute;
+    left: -1px; */
+    display: block;
+    width: 288px;
+    height: 49px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #b1191a;
+    /* border: 1px solid transparent; */
+    border-top: 0;
+}
+
+/* nav模块 End*/

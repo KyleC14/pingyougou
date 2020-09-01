@@ -1,0 +1,148 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 头部区域 */
+.header {
+    height: 84px;
+    line-height: 84px;
+    border-bottom: 2px solid #b1191a;
+}
+/* 头部区域 End*/
+
+/* 注册区域 */
+.register_area {
+    height: 522px;
+    border: 1px solid #dfdfdf;
+    margin-top: 20px;
+}
+.register_area h3{
+    height: 41px;
+    line-height: 41px;
+    border-bottom: 1px solid #dddddd;
+    font-weight: 400;
+    background-color: #ececec;
+    padding: 0 10px;
+}
+.title {
+    float: left;
+    font-size: 18px;
+    color: #333333;
+}
+.login {
+    float: right;
+    font-size: 14px;
+}
+.login a {
+    color: #c81623;
+}
+.reg_form {
+    width: 600px;
+    margin: 54px auto 0;
+    /* background-color: aqua; */
+}
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+.reg_form ul li label {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    font-size: 14px;
+    color: #4c4c4c;
+}
+.reg_form ul li .inp {
+    width: 241px;
+    height: 36px;
+    border: 1px solid #999999;
+    margin-left: 10px;
+}
+.error {
+    color: #df3033;
+}
+.error_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+    vertical-align: middle;
+    margin: -2px 5px 0px 12px;
+}
+.success {
+    color: green;
+}
+.success_icon {
+    background: url(../images/success.png) no-repeat;
+}
+.safe {
+    padding-left: 165px;
+}
+.safe em {
+    padding: 0 12px;
+    color: #ffffff;
+    margin-right: 1px;
+}
+.wick {
+    margin-left: 9px;
+    background-color: #de1111;
+}
+.medium {
+    background-color: #40b83f;
+}
+.strong {
+    background-color: #f79100;
+}
+.agree {
+    padding-left: 85px;
+}
+.agree input {
+    margin-top: -1px;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.agree a {
+    color: #1ba1e6;
+}
+.reg {
+    margin-top: 50px;
+    padding-left: 96px;
+}
+.reg_btn {
+    width: 200px;
+    height: 34px;
+    font-size: 14px;
+    background-color: #c81623;
+    color: #ffffff;
+}
+/* 注册区域 End*/
+
+/* 底部区域 */
+.footer {
+    padding-bottom: 36px;
+}
+.mod_copyright {
+    padding-top: 20px;
+    text-align: center;
+}
+.links {
+    margin-bottom: 16px;
+}
+.links a {
+    border-right: 1px solid #999999;
+    line-height: 12px;
+    padding-left: 14px;
+    padding-right: 16px;
+}
+.links a:last-child{
+    border: 0;
+    padding-right: 0;
+}
+.links a:first-child {
+    padding-left: 0;
+}
+.copyright {
+    line-height: 20px;
+}
+/* 底部区域 End*/
